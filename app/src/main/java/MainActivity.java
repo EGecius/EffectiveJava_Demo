@@ -1,7 +1,7 @@
-package com.egecius.demo_effectivejava;
-
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+
+import com.egecius.demo_effectivejava.R;
 
 public class MainActivity extends AppCompatActivity {
 
