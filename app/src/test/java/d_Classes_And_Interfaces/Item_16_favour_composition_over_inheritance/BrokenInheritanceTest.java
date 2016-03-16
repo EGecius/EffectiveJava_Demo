@@ -33,7 +33,6 @@ public class BrokenInheritanceTest {
 
 		int addCount = hashSet.getAddCount();
 		assertThat(addCount).isEqualTo(4);
-
 	}
 
 }
