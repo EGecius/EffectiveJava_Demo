@@ -37,7 +37,7 @@ public class ConfusingOverloadingTest {
 		//THEN
 		assertThat(satisfy).isEqualTo(ConfusingOverloading.SET);
 	}
-	
+
 	@Test
 	public void when_hashSetPassedAsCollection_then_treatedAsCollection() {
 		//WHEN
