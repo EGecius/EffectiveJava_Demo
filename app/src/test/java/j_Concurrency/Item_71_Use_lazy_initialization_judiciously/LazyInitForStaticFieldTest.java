@@ -5,15 +5,15 @@ import org.junit.Test;
 import static org.assertj.core.api.Assertions.assertThat;
 
 /**
- * Tests for {@link LazyInitializationForStaticField}
+ * Tests for {@link LazyInitForStaticField}
  * In contrary to what item 71, this idiom for lazy initialization for static fields does not work
  */
-public class LazyInitializationForStaticFieldTest {
+public class LazyInitForStaticFieldTest {
 
 	@Test
 	public void when_outerClassInitialized_thenAllItsFieldsAreInitializedTooEvenBeforeAccessingThem() {
 		//WHEN
-		boolean initialized = LazyInitializationForStaticField.hasFieldBeenInitialized;
+		boolean initialized = LazyInitForStaticField.hasFieldBeenInitialized;
 
 		assertThat(initialized).isTrue();
 	}
@@ -21,7 +21,7 @@ public class LazyInitializationForStaticFieldTest {
 	@Test
 	public void when_innerClassInitialized_thenAllItsFieldsAreInitializedTooEvenBeforeAccessingThem_2() {
 		//WHEN
-		boolean initialized = LazyInitializationForStaticField.FieldHolder.hasFieldBeenInitialized;
+		boolean initialized = LazyInitForStaticField.FieldHolder.hasFieldBeenInitialized;
 
 		assertThat(initialized).isTrue();
 	}
