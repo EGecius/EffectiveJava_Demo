@@ -1,5 +1,10 @@
 package c_Methods_Common_to_All_Objects.Item_8_Obey_the_general_contract_when_overriding_equals;
 
+/**
+ * This class shows how extending a class cannot preserve equals() contract because it violates symmetry
+ * principle. This is because two compared objects have different equals() methods and return different results
+ * because of different checks.
+ */
 final class ContactWithEqualsExtended extends ContactWithEquals {
 
 	private String address;
