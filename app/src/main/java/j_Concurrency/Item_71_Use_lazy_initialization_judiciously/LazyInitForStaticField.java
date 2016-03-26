@@ -1,7 +1,8 @@
 package j_Concurrency.Item_71_Use_lazy_initialization_judiciously;
 
 /**
- * In contrary to what item 71, this idiom for lazy initialization for static fields does not work. See tests.
+ * In contrary to what item 71, this idiom for lazy initialization for static fields does not work.
+ * See tests.
  */
 final class LazyInitForStaticField {
 
