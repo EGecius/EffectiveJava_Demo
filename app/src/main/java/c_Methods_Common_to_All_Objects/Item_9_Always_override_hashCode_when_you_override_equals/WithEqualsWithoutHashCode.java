@@ -26,7 +26,7 @@ final class WithEqualsWithoutHashCode {
 
 	}
 
-// // commented out on purpose
+// // commented out to break contract of equals()
 
 //	@Override
 //	public int hashCode() {
