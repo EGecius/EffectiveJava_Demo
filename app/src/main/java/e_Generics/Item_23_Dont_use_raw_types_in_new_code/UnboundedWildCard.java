@@ -3,7 +3,7 @@ package e_Generics.Item_23_Dont_use_raw_types_in_new_code;
 import java.util.Set;
 
 /**
- * Shows how wildcards ensure typesafety
+ * Shows how wildcards ensure type safety
  */
 final class UnboundedWildCard {
 
@@ -22,4 +22,5 @@ final class UnboundedWildCard {
 
 		return result;
 	}
+
 }
