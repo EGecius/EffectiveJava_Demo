@@ -9,7 +9,7 @@ final class ListOverArrays {
 
 //		ArrayList<Object> list = new ArrayList<Long>(); //fails at compile time because they are incompatible times.
 	}
-	
+
 	/**
 	 * Here in line 1 we pretend that compile would allow creating an array of parameterized lists.
 	 * In line 2 this array is assigned to its supertype, which is array of Object types. However, t
