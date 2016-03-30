@@ -3,7 +3,7 @@ package d_Classes_And_Interfaces.Item_15_Minimize_mutability;
 /**
  * This class looks like immutable but actually has a mutable array exposed
  */
-public final class MutableViaGetter {
+final class MutableViaGetter {
 
 	private final String title;
 	private final int id;

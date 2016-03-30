@@ -3,7 +3,7 @@ package d_Classes_And_Interfaces.Item_15_Minimize_mutability;
 /**
  * This class looks like immutable but is not. It has a mutable array injectable through interface
  */
-public final class MutableViaConstructor {
+final class MutableViaConstructor {
 
 	private final String title;
 	private final int id;

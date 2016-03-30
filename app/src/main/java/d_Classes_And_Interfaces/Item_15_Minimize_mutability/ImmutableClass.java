@@ -6,7 +6,7 @@ package d_Classes_And_Interfaces.Item_15_Minimize_mutability;
  * 2) all immutable fields are final
  * 3) no access to mutable fields
  */
-public final class ImmutableClass {
+final class ImmutableClass {
 
 	private final String title;
 	private final int id;
