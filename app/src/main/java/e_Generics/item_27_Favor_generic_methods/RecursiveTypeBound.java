@@ -3,11 +3,10 @@ package e_Generics.item_27_Favor_generic_methods;
 import java.util.Iterator;
 import java.util.List;
 
-/**
- * //todo
- */
+
 final class RecursiveTypeBound {
 
+	/** Returns max value from the list provided */
 	public <T extends Comparable<T>> T max(List<T> list) {
 
 		Iterator<T> iterator = list.iterator();

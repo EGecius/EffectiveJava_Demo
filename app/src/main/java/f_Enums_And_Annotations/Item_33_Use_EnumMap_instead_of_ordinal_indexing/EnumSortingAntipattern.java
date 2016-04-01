@@ -1,4 +1,4 @@
-package e_Generics.Item_33_Use_EnumMap_instead_of_ordinal_indexing;
+package f_Enums_And_Annotations.Item_33_Use_EnumMap_instead_of_ordinal_indexing;
 
 import java.util.HashSet;
 import java.util.Set;
