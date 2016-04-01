@@ -6,7 +6,7 @@ package f_Enums_And_Annotations.Item_34_Emulate_extensible_enums_with_interfaces
 final class PowerOf implements Operation {
 
 	@Override
-	public float apply(final int base, final int power) {
+	public double apply(final int base, final int power) {
 
 		int result = 1;
 		for (int i = 0; i < power; i++) {

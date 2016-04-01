@@ -4,25 +4,25 @@ enum Calculator implements Operation {
 
 	ADD() {
 		@Override
-		public float apply(final int arg1, final int arg2) {
+		public double apply(final int arg1, final int arg2) {
 			return arg1 + arg2;
 		}
 	},
 	SUBTRACT() {
 		@Override
-		public float apply(final int arg1, final int arg2) {
+		public double apply(final int arg1, final int arg2) {
 			return arg1 - arg2;
 		}
 	},
 	MULTIPLY() {
 		@Override
-		public float apply(final int arg1, final int arg2) {
+		public double apply(final int arg1, final int arg2) {
 			return arg1 * arg2;
 		}
 	},
 	DIVIDE() {
 		@Override
-		public float apply(final int arg1, final int arg2) {
+		public double apply(final int arg1, final int arg2) {
 			return (float) arg1 / arg2;
 		}
 	}

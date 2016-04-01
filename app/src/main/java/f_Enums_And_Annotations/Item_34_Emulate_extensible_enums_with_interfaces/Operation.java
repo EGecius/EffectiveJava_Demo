@@ -8,5 +8,5 @@ interface Operation {
 	/** Apply operation
 	 * @param arg1
 	 * @param arg2*/
-	float apply(final int arg1, final int arg2);
+	double apply(final int arg1, final int arg2);
 }
