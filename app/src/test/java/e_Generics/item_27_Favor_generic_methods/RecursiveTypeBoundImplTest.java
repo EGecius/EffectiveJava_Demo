@@ -8,15 +8,15 @@ import java.util.ArrayList;
 import static org.assertj.core.api.Assertions.assertThat;
 
 /**
- * Tests for {@link RecursiveTypeBound}
+ * Tests for {@link RecursiveTypeBoundImpl}
  */
-public class RecursiveTypeBoundTest {
+public class RecursiveTypeBoundImplTest {
 
-	RecursiveTypeBound sample;
+	RecursiveTypeBoundImpl sample;
 
 	@Before
 	public void setup() {
-		sample = new RecursiveTypeBound();
+		sample = new RecursiveTypeBoundImpl();
 	}
 
 	@Test
