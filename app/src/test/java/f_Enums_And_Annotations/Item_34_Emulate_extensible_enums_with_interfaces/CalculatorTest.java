@@ -12,7 +12,7 @@ public class CalculatorTest {
 	@Test
 	public void add() {
 		//WHEN
-		float result = Calculator.ADD.apply(2, 7);
+		double result = Calculator.ADD.apply(2, 7);
 		//THEN
 		assertThat(result).isEqualTo(9);
 	}
@@ -20,7 +20,7 @@ public class CalculatorTest {
 	@Test
 	public void divide() {
 		//WHEN
-		float result = Calculator.DIVIDE.apply(7, 2);
+		double result = Calculator.DIVIDE.apply(7, 2);
 		//THEN
 		assertThat(result).isEqualTo(3.5f);
 	}

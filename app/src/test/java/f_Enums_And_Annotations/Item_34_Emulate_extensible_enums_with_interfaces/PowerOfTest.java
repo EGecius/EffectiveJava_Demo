@@ -20,7 +20,7 @@ public class PowerOfTest {
 	@Test
 	public void when_2_power_of_3() {
 		//WHEN
-		float result = power.apply(2, 3);
+		double result = power.apply(2, 3);
 		//THEN
 		assertThat(result).isEqualTo(8);
 	}
@@ -28,7 +28,7 @@ public class PowerOfTest {
 	@Test
 	public void when_5_power_of_3() {
 		//WHEN
-		float result = power.apply(5, 3);
+		double result = power.apply(5, 3);
 		//THEN
 		assertThat(result).isEqualTo(125);
 	}
