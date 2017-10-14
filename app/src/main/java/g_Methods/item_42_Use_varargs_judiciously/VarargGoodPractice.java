@@ -7,7 +7,7 @@ public class VarargGoodPractice {
      * 1) no compile-time enforcing of arguments - fails at runtime only
      * 2) it's ugly
      * */
-    static int min(int... args) {
+    int min(int... args) {
 
         if (args.length == 0) {
             throw new IllegalArgumentException("too few arguments");
@@ -24,7 +24,7 @@ public class VarargGoodPractice {
     }
 
     /** Much better alternative */
-    static int min(int firsArg, int... remainingArgs) {
+    int minGoodDesign(int firsArg, int... remainingArgs) {
 
         int min = firsArg;
 
